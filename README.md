@@ -1,6 +1,10 @@
 # public-curious-bot
 Public Curious Bot repo for open source
 
-This repo is an open source version of the curiousbot for discord api, with the client token and venv removed.
+This repo is an open source version of the curiousbot for discord api, with the client secret and venv removed.
 
-This project, started in late 2021, is written in Python including discord.py, selenium, requests, and google drive, sheets, and cloud apis. It was not initially written for public viewership, and has a lack of rigorous commenting. If you have any questions or issues, feel free to reach out to me on discord @Curious Beats#2276 or email gdeljevic@gmail.com
+This branch is for FF related functionalities only. 
+
+This bot will, given an AO3, FF.net, or wattpad profiles, count the sum of follows on FF.net, kudos on AO3, and votes / total chapters * total stories on wattpad. Mostly this repository is provided if anyone might find the webscraping methods useful to perform similar operations. If you'd like the bot implemented on your server or to have an adjusted functionality, DM me @Curious Beats#2276
+
+To run the function, type `follows [URL] in an allowed channel. To get help, simply type `followshelp.
